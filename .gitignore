@@ -1,0 +1,27 @@
+# Arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de Dados SQLite
+database/contagem_diaria.db
+
+# Arquivos exportados
+contagem_diaria_export.xlsx
+
+# Configurações do ambiente virtual
+venv/
+*.env
+
+# Arquivos temporários de logs
+logs/
+*.log
+
+# Cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Diretório de build do PyInstaller
+dist/
+build/
+*.spec
