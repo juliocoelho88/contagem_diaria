@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd19f560-d6fe-407a-a596-2c7c41ac0d94" name="Changes" comment="instalado as dependencies">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="dd19f560-d6fe-407a-a596-2c7c41ac0d94" name="Changes" comment="git add requirements.txt&#10;git commit -m &quot;Adicionando requirements.txt&quot;&#10;git push origin main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contagem_diaria.db" beforeDir="false" afterPath="$PROJECT_DIR$/contagem_diaria.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/ui_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/ui_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/ui_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742821948420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git add requirements.txt&#10;git commit -m &quot;Adicionando requirements.txt&quot;&#10;git push origin main">
+      <option name="closed" value="true" />
+      <created>1742823236041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742823236041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="instalado as dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="instalado as dependencies" />
+    <MESSAGE value="git add requirements.txt&#10;git commit -m &quot;Adicionando requirements.txt&quot;&#10;git push origin main" />
+    <option name="LAST_COMMIT_MESSAGE" value="git add requirements.txt&#10;git commit -m &quot;Adicionando requirements.txt&quot;&#10;git push origin main" />
   </component>
 </project>

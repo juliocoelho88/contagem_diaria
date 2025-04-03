@@ -24,7 +24,8 @@ def criar_tabela():
             carro_apreendido INTEGER NOT NULL,
             moto_apreendido INTEGER NOT NULL,
             flagrantes_outros INTEGER NOT NULL,
-            arma INTEGER NOT NULL
+            arma INTEGER NOT NULL,
+            escolas INTEGER NOT NULL
         )
     """)
     conn.commit()

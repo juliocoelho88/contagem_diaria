@@ -64,7 +64,7 @@ def consultar(janela):
     tree = ttk.Treeview(janela_consulta, columns=[
         "ID", "Pelotao", "Data", "Pessoa", "Carros", "Motos", "Qnt Ocorrencias",
         "Flagrantes", "Autuacoes", "Raia", "Procurado", "Carro Apreendido",
-        "Moto Apreendida", "Flagrantes Outros", "Arma"
+        "Moto Apreendida", "Flagrantes Outros", "Arma", "Escolas"
     ], show="headings")
     tree.pack(fill="both", expand=True, padx=10, pady=10)
 

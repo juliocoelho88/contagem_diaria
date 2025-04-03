@@ -14,16 +14,16 @@ def consultar_dados(filtro=None):
     return resultados
 
 def inserir_dados(pelotao, data, pessoa, carros, motos, qnt_ocorrencias, flagrantes, autuacoes,
-                  raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma):
+                  raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma, escolas):
     conn = criar_conexao()
     cursor = conn.cursor()
     cursor.execute("""
         INSERT INTO contagem_diaria (
             pelotao, data, pessoa, carros, motos, qnt_ocorrencias, flagrantes, autuacoes, 
-            raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma, escolas
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (pelotao, data, pessoa, carros, motos, qnt_ocorrencias, flagrantes, autuacoes,
-          raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma))
+          raia, procurado, carro_apreendido, moto_apreendido, flagrantes_outros, arma, escolas))
     conn.commit()
     conn.close()
 

@@ -19,7 +19,7 @@ def iniciar_interface():
 
     Label(frame_info, text="Pelotão:").grid(row=0, column=0, padx=10, pady=5, sticky="w")
     pelotao_var = StringVar()
-    pelotao_entry = Combobox(frame_info, textvariable=pelotao_var, values=["A", "B", "C", "D", "RPMA", "RPMC", "REM", "REV"])
+    pelotao_entry = Combobox(frame_info, textvariable=pelotao_var, values=["A", "B", "C", "D", "RPMA", "RPMC", "REM", "REV", "INTAB", "INTCD"])
     pelotao_entry.grid(row=0, column=1, padx=10, pady=5, sticky="ew")
 
     Label(frame_info, text="Data:").grid(row=1, column=0, padx=10, pady=5, sticky="w")
@@ -35,7 +35,7 @@ def iniciar_interface():
     entry_labels = [
         "Pessoa", "Carros", "Motos", "Qnt_Ocorrencias", "Flagrantes",
         "Autuacoes", "RAIA", "Procurado", "Carro_Apreendido",
-        "Moto_Apreendido", "Flagrantes_Outros", "Arma"
+        "Moto_Apreendido", "Flagrantes_Outros", "Arma", "Escolas"
     ]
     entry_fields = {}
 
